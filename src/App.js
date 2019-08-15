@@ -22,12 +22,17 @@ const StyledButton = styled.button`
   }
 `;
 
+const StyledView = styled.h1`
+  background-color: #61DAFB;
+  font-size: 80px
+  width:680px;
+`
 
 
 function App() {
   return (
     <div className="App">
-     
+     <StyledView>Photo of The Day</StyledView>
       <StyledButton primary>StyledButton</StyledButton>
       <ButtonAnimated />
        <Main />
