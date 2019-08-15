@@ -1,5 +1,12 @@
+
+
+
 .App {
   text-align: center;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .App-logo {
@@ -30,4 +37,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ui.card:last-child {
+  width: 684px;
+}
+
+.ui.animated.button {
+    background-color: #61dafb;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
